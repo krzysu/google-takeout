@@ -1,0 +1,20 @@
+[project]
+name = "google-takeout-merge"
+version = "1.0.0"
+description = "Extract and merge multiple Google Takeout zip files into a single folder"
+requires-python = ">=3.8"
+
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "SIM", # flake8-simplify
+]

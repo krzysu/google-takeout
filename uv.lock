@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.6"
+
+[[package]]
+name = "google-takeout-merge"
+version = "1.0.0"
+source = { virtual = "." }
